@@ -12,11 +12,10 @@
       crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hola mundo</h1>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Meeeeedilab</a>
+        <a class="navbar-brand" href="#">Medilab</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -116,6 +115,19 @@
         </div>
       </div>
       <!--Columna-->
+
+            <!--Columna-->
+            <div class="row mt-4">
+              <div class="col-6 col-md-4"><h5>SecureBlackBox</h5></div>
+              <div class="col-6 col-md-4"><img src alt></div>
+              <div class="col-6 col-md-4">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal6">
+                  Detalles
+                </button>
+              </div>
+            </div>
+            <!--Columna-->
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -366,7 +378,7 @@
                 </table>
 
               </div>
-              <div class="modal-footer">
+              <div class="modal-footer"> 
                 <button type="button" class="btn btn-secondary"
                   data-bs-dismiss="modal">Close</button>
               </div>
@@ -374,6 +386,59 @@
           </div>
         </div>
         <!-- Modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Versiones</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"
+          aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Aplicación</th>
+              <th scope="col">Version</th>
+              <th scope="col">Ajustes</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Descarga</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>SevureBlackBox</td>
+              <td></td>
+              <td>
+                <p class="text-start"><strong></strong> <br></p>
+                <p class="text-start"></p>
+              </td>
+              <td></td>
+              <td><a
+                  href="https://medilab.tecnologia.ws/downmedi/secureblackbox22.7z"
+                  target="_blank" rel="noreferrer noopener">Descargar</a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <div class="modal-footer"> 
+        <button type="button" class="btn btn-secondary"
+          data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+
 
         <!--Script-->
         <script
